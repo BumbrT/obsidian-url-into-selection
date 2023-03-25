@@ -27,7 +27,7 @@ export default class UrlIntoSel_Plugin extends Plugin {
       },
     });
 
-    this.app.workspace.on("editor-paste", this.pasteHandler);
+    // this.app.workspace.on("editor-paste", this.pasteHandler);
   }
 
   onunload() {
